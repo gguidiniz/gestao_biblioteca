@@ -71,9 +71,3 @@ As configurações de conexão do banco estão no arquivo application.properties
 5. **Acessar o Sistema:**
 - Abra o navegador e acesse:
 http://localhost:3000
-
-### Estrutura de pastas
-biblioteca-digital/
-├── backend/          # Código do back-end (Spring Boot)
-├── frontend/         # Código do front-end (React)
-└── README.md         # Documentação do projeto
