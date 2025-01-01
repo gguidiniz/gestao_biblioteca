@@ -34,37 +34,44 @@ Sistema Integrado de Gestão de Livros para uma Biblioteca Municipal. Este proje
 ### Passos
 
 1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/gguidiniz/gestao_biblioteca.git
+    ```sh
+    git clone https://github.com/gguidiniz/gestao_biblioteca.git
+    ```
 
 2. **Configurar o Back-end:**
 - Acesse a pasta do back-end:
-    '''bash
+    ```sh
     cd backend
+    ```
 
 - Execute o comando para iniciar a aplicação:
-    '''bash
+    ```sh
     mvn spring-boot:run
+    ```
 
 3. **Configurar o Front-end:**
 - Acesse a pasta do front-end:
-    '''bash
+    ```sh
     cd frontend
+    ```
 
 - Instale as dependências:
-    '''bash
+    ```sh
     npm install
+    ```
 
 - Inicie o servidor do front-end:
-    '''bash
+    ```sh
     npm start
+    ```
 
 Configurar o Banco de Dados:
 
 4. **Certifique-se de que o MySQL esteja rodando.**
 - Crie o banco de dados chamado biblioteca:
-    '''sql
+    ```sh
     CREATE DATABASE biblioteca;
+    ```
 
 As configurações de conexão do banco estão no arquivo application.properties do back-end.
 
