@@ -20,7 +20,7 @@ Sistema Integrado de Gestão de Livros para uma Biblioteca Municipal. Este proje
 - **MySQL** como banco de dados relacional
 
 ### Front-end:
-- **React** com **Bootstrap** para estilização
+- **Html**, **css** e **java script**
 
 ---
 
@@ -46,28 +46,12 @@ Sistema Integrado de Gestão de Livros para uma Biblioteca Municipal. Este proje
     '''bash
     mvn spring-boot:run
 
-3. **Configurar o Front-end:**
-- Acesse a pasta do front-end:
-    '''bash
-    cd frontend
-
-- Instale as dependências:
-    '''bash
-    npm install
-
-- Inicie o servidor do front-end:
-    '''bash
-    npm start
-
-Configurar o Banco de Dados:
-
-4. **Certifique-se de que o MySQL esteja rodando.**
+3. **Certifique-se de que o MySQL esteja rodando.**
 - Crie o banco de dados chamado biblioteca:
     '''sql
     CREATE DATABASE biblioteca;
 
 As configurações de conexão do banco estão no arquivo application.properties do back-end.
 
-5. **Acessar o Sistema:**
-- Abra o navegador e acesse:
-http://localhost:3000
+4. **Acessar o Sistema:**
+- Acessar via o arquivo index.html
